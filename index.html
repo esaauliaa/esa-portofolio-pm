@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Esa Aulia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="top-pattern"></div>
+
+    <header class="navbar">
+        <a href="#about" class="nav-logo">Esa Aulia</a>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-toggle" id="menuToggle" type="button">☰</button>
+    </header>
+
+    <main>
+
+        <section class="section about-section" id="about">
+            <div class="about-grid">
+
+                <div class="profile-card">
+                    <div class="clip">⌄</div>
+
+                    <div class="photo-box">
+                        <img src="images/profile.jpg" alt="Foto Esa Aulia">
+                        <span class="hello-badge">hello!</span>
+                    </div>
+
+                    <div class="name-tag">Esa Aulia</div>
+
+                    <div class="profile-info">
+                        <div>
+                            <span>Nickname</span>
+                            <strong>Esa</strong>
+                        </div>
+                        <div>
+                            <span>Study</span>
+                            <strong>Information Systems</strong>
+                        </div>
+                        <div>
+                            <span>University</span>
+                            <strong>University of Jember</strong>
+                        </div>
+                        <div>
+                            <span>Interest</span>
+                            <strong>Data & System Analyst</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+
+                    <h1>Esa Aulia</h1>
+
+                    <div class="summary-card">
+                        <p>
+                            I am a fourth-semester Information Systems student at the Faculty of Computer Science,
+                            University of Jember. I have an interest in Data Analysis, System Analysis,
+                            and digital transformation, especially in supporting effective business processes
+                            through information technology.
+                        </p>
+                    </div>
+
+                    <div class="mini-contact">
+                        <span>Let’s connect!</span>
+                        <a href="mailto:auliaesa680@gmail.com">auliaesa680@gmail.com</a>
+                        <a href="https://linkedin.com/in/esa-aulia-924625280" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/esaauliaa" target="_blank">GitHub</a>
+                        <a href="https://instagram.com/auliesaa" target="_blank">Instagram</a>
+                    </div>
+
+                    <div class="content-row">
+                        <div class="info-block education-block">
+                            <h2>Education</h2>
+
+                            <div class="timeline-item">
+                                <span class="flower">✿</span>
+                                <div>
+                                    <h3>Universitas Jember</h3>
+                                    <p>Bachelor’s Degree in Information Systems</p>
+                                    <small>2024 - 2028 Expected</small>
+                                </div>
+                            </div>
+
+                            <div class="timeline-item">
+                                <span class="flower">✿</span>
+                                <div>
+                                    <h3>Faculty of Computer Science</h3>
+                                    <p>Fourth-semester student</p>
+                                    <small>Jember, Indonesia</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-block interest-block">
+                            <h2>Interests</h2>
+
+                            <div class="pill-wrapper">
+                                <span>Data Analysis</span>
+                                <span>System Analysis</span>
+                                <span>Fintech</span>
+                                <span>Digital Transformation</span>
+                                <span>IT Governance</span>
+                                <span>Risk Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+
+            <div class="slider-wrapper">
+                <button class="slide-btn left" onclick="scrollProjects(-1)" type="button">‹</button>
+
+                <div class="project-slider" id="projectSlider">
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/sievent.jpg" alt="SiEvent Project">
+                        </div>
+                        <h3>SiEvent</h3>
+                        <p class="role">Programmer</p>
+                        <p>Campus event management website using Laravel and MySQL.</p>
+
+                        <div class="tag-list">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Web</span>
+                        </div>
+
+                        <a href="https://github.com/esaauliaa" class="card-link" target="_blank">View Project</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/snackflow.jpg" alt="SnackFlow Project">
+                        </div>
+                        <h3>SnackFlow</h3>
+                        <p class="role">System Analyst</p>
+                        <p>System documentation for web-based business management.</p>
+
+                        <div class="tag-list">
+                            <span>System Analyst</span>
+                            <span>Documentation</span>
+                        </div>
+
+                        <a href="#" class="card-link" target="_blank">View Document</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/hage.jpg" alt="HAGE Project">
+                        </div>
+                        <h3>HAGE</h3>
+                        <p class="role">Project Manager</p>
+                        <p>Marketplace anggrek project focused on user needs and team coordination.</p>
+
+                        <div class="tag-list">
+                            <span>Marketplace</span>
+                            <span>Project Manager</span>
+                        </div>
+
+                        <a href="#" class="card-link" target="_blank">View Project</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/water-potability.jpg" alt="Water Potability Project">
+                        </div>
+                        <h3>Water Potability</h3>
+                        <p class="role">Data Analyst</p>
+                        <p>Prediction model using Gaussian Naive Bayes based on water quality data.</p>
+
+                        <div class="tag-list">
+                            <span>Python</span>
+                            <span>Naive Bayes</span>
+                            <span>Data</span>
+                        </div>
+
+                        <a href="#" class="card-link" target="_blank">View Notebook</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/chatgpt-clustering.jpg" alt="ChatGPT Clustering Project">
+                        </div>
+                        <h3>ChatGPT Usage Clustering</h3>
+                        <p class="role">Data Analyst</p>
+                        <p>K-Means clustering analysis on student academic performance.</p>
+
+                        <div class="tag-list">
+                            <span>K-Means</span>
+                            <span>Data Mining</span>
+                            <span>Python</span>
+                        </div>
+
+                        <a href="#" class="card-link" target="_blank">View Notebook</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/cardbox.jpg" alt="Cardbox UI UX Project">
+                        </div>
+                        <h3>Cardbox</h3>
+                        <p class="role">UI/UX Designer</p>
+                        <p>UI/UX design project focused on interface layout and user experience.</p>
+
+                        <div class="tag-list">
+                            <span>UI/UX</span>
+                            <span>Design</span>
+                            <span>Prototype</span>
+                        </div>
+
+                        <a href="#" class="card-link" target="_blank">View Design</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/trash2cash.jpg" alt="Trash2Cash Infographic">
+                        </div>
+                        <h3>Trash2Cash</h3>
+                        <p class="role">Infographic Designer</p>
+                        <p>Infographic project presenting waste management ideas in visual form.</p>
+
+                        <div class="tag-list">
+                            <span>Infographic</span>
+                            <span>Design</span>
+                        </div>
+
+                        <a href="#" class="card-link" target="_blank">View Design</a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/projects/etnomatematika.jpg" alt="Etnomatematika Infographic">
+                        </div>
+                        <h3>Etnomatematika</h3>
+                        <p class="role">Infographic Designer</p>
+                        <p>Infographic project combining mathematics concepts with cultural context.</p>
+
+                        <div class="tag-list">
+                            <span>Infographic</span>
+                            <span>Education</span>
+                        </div>
+
+                        <a href="#" class="card-link" target="_blank">View Design</a>
+                    </article>
+
+                </div>
+
+                <button class="slide-btn right" onclick="scrollProjects(1)" type="button">›</button>
+            </div>
+        </section>
+
+        <section class="section experience-section" id="experience">
+            <div class="section-title">
+                <h2>Experience & Activities</h2>
+            </div>
+
+            <div class="certificate-button-wrapper">
+                <a href="https://drive.google.com/drive/folders/1ixhXu7UnmCLIfS_13-Gy7K86ND_UY_ml?usp=drive_link" class="certificate-btn" target="_blank">
+                    View Certificates
+                </a>
+            </div>
+
+            <div class="experience-grid">
+
+                <div class="experience-card">
+                    <span class="sticker">★</span>
+                    <h3>BSI Scholarship Awardee</h3>
+                    <p>Selected as BSI Scholarship Awardee starting in 2025.</p>
+                    <small>2025 - Present</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">✿</span>
+                    <h3>P2MW Funded Awardee</h3>
+                    <p>Received P2MW 2026 funding as CEO of TyCake Business.</p>
+                    <small>2026</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">✦</span>
+                    <h3>MySkill Short Class</h3>
+                    <p>Completed MySkill Short Class: Data Analyst.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">♡</span>
+                    <h3>Talkshow Literasi Keuangan Syariah</h3>
+                    <p>Participant of Talkshow Literasi Keuangan Syariah by OJK and BSI.</p>
+                    <small>2026</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">☀</span>
+                    <h3>OJK Literacy Ambassador Program</h3>
+                    <p>Participant in the OJK Financial Literacy Ambassador Program Series.</p>
+                    <small>2026</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">☘</span>
+                    <h3>BPM Fasilkom</h3>
+                    <p>Komisi III Pengawasan and Biro Administrasi staff.</p>
+                    <small>2025 - 2026</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">1</span>
+                    <h3>Laporan Pertanggungjawaban BEM Fasilkom</h3>
+                    <p>Committee as Chief Executive.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">2</span>
+                    <h3>PPMB Fasilkom</h3>
+                    <p>Committee as Disciplinary Commission Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">3</span>
+                    <h3>Amandemen UUD Fasilkom</h3>
+                    <p>Committee as Treasurer.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">4</span>
+                    <h3>Sekolah Legislasi</h3>
+                    <p>Committee as Event Division Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">5</span>
+                    <h3>KPUM Fasilkom UNEJ</h3>
+                    <p>Committee as Public Relations Division Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">6</span>
+                    <h3>Sosialisasi Aspirasi</h3>
+                    <p>Committee as Publication, Documentation, and Decoration Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">7</span>
+                    <h3>Konferensi Mahasiswa Pengawasan</h3>
+                    <p>Committee as Publication, Documentation, and Decoration Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">8</span>
+                    <h3>Konferensi Mahasiswa PEMIRA</h3>
+                    <p>Committee as Public Relations Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">9</span>
+                    <h3>Open Talk</h3>
+                    <p>Committee as Event Division Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">10</span>
+                    <h3>Sosialisasi Evaluasi Civitas Akademika</h3>
+                    <p>Committee as Public Relations Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">11</span>
+                    <h3>Plotting Dana dan Proker</h3>
+                    <p>Committee as Event Division Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">12</span>
+                    <h3>Evaluasi Triwulan</h3>
+                    <p>Committee as Event Division Staff.</p>
+                    <small>2025</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">13</span>
+                    <h3>Sosialisasi Aspirasi</h3>
+                    <p>Committee as Secretary.</p>
+                    <small>2026</small>
+                </div>
+
+                <div class="experience-card">
+                    <span class="sticker">14</span>
+                    <h3>Konferensi Mahasiswa</h3>
+                    <p>Committee as Secretary.</p>
+                    <small>2026</small>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="contact-card">
+                <h2>Let’s Work Together!</h2>
+
+                <p>
+                    Feel free to contact me for internship opportunities, collaboration,
+                    or portfolio discussion.
+                </p>
+
+                <div class="contact-list">
+                    <a href="mailto:auliaesa680@gmail.com">auliaesa680@gmail.com</a>
+                    <a href="https://linkedin.com/in/esa-aulia-924625280" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/esaauliaa" target="_blank">GitHub</a>
+                    <a href="https://instagram.com/auliesaa" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
